@@ -139,6 +139,25 @@ p2 {
 }
 
 .case-study-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    outline: solid red 1px;
+}
+
+.case-study-image {
+    height: auto;
+    max-width: 50%;
+    border-radius: 12px;
+    transform: rotate(5deg);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    outline: solid red 1px;
+}
+
+.case-study-info {
     margin-top: 150px;
     margin-left: 50px;
     display: flex;
@@ -147,12 +166,13 @@ p2 {
     padding: 15px;
     gap: 48px;
     position: relative;
-    /* outline: solid red 1px; */
+    outline: solid red 1px;
 }
 
-#CaseStudyTitle{
+#CaseStudyTitle {
     font-size: 40px;
 }
+
 .cta {
     width: 175px;
     height: 75px;
