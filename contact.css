@@ -1,0 +1,29 @@
+.contact-description {
+    margin-top: 100px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    /* outline: solid red 1px; */
+}
+
+.contact-input-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    /* outline: solid red 1px; */
+}
+
+.contact-inputs {
+    /* margin-top: 100px; */
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: #F4F4F4;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.contact-note {
+    display: flex;
+    justify-content: center;
+}
