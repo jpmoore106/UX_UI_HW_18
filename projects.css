@@ -1,0 +1,8 @@
+.case-study-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 150px;
+}
+
+.case-study-item {}
