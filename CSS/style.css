@@ -1,0 +1,191 @@
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+h2 {
+    width: 203px;
+    height: 42px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+h3 {
+    width: 132px;
+    height: 36px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #F4F4F4;
+}
+
+h4 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+
+
+p1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: #F4F4F4;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+p2 {
+    /* margin-left: 25px; */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+
+.mainContent {
+    background: #262626;
+    width: 100vw;
+}
+
+/* This content containas the main navigation items for my portfolio: to learn ABOUT ME, acces MY RESUMÉ,  view my PROJECTS, and CONTACT */
+
+.navigation {
+    display: flex;
+    height: 109px;
+    width: 100%;
+    background: #171717;
+    align-items: center;
+    color: #F4F4F4;
+    text-decoration: none;
+    /* outline: solid red 1px; */
+}
+
+.navleft {
+    padding-left: 25px;
+    align-items: center;
+    /* width: 477px; */
+    /* height: 150px; */
+    justify-content: flex-start;
+    display: flex;
+    color: #F4F4F4;
+    text-decoration: none;
+    /* outline: solid red 1px; */
+
+}
+
+
+.navright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    justify-content: flex-end;
+    flex-grow: 2;
+    width: 561px;
+    height: 36px;
+    text-decoration: none;
+    /* outline: solid red 1px; */
+}
+
+#bio {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 150px;
+    /* outline: solid red 3px; */
+}
+
+#bioimage {
+    margin-left: 50px;
+    width: 200px;
+    height: 199.53px;
+    border-radius: 25px;
+    filter: saturate(120%) brightness(100%) contrast(115%);
+    /* outline: solid red 1px; */
+}
+
+#bioDescription {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    /* outline: solid red 1px; */
+}
+
+.page-title {
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Bebas Neue', cursive;
+    /* outline: solid red 1px; */
+}
+
+.case-study-layout {
+    margin-top: 150px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 48px;
+    position: relative;
+    /* outline: solid red 1px; */
+}
+
+#CaseStudyTitle{
+    font-size: 40px;
+}
+.cta {
+    width: 175px;
+    height: 75px;
+    background: #FAFAFA;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    /* outline: solid red 1px; */
+}
+
+#alltravellogo {
+    width: 340px;
+    height: 136.33px;
+    /* outline: solid red 1px; */
+}
+
+footer {
+    align-items: center;
+}
+
+.social {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    padding: 0px;
+    gap: 50px;
+    /* outline: solid red 1px; */
+}
+
+.SocialMediaImage {
+    width: 25px;
+    height: 25px;
+}
