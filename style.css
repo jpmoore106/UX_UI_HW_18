@@ -148,7 +148,7 @@ p2 {
     /* position: relative; */
     padding: 0px;
     gap: 50px;
-    outline: solid red 1px;
+    /* outline: solid red 1px; */
 }
 
 .case-study-image {
@@ -161,14 +161,14 @@ p2 {
     /* flex: none;
     order: 1;
     flex-grow: 0; */
-    outline: solid red 1px;
+    /* outline: solid red 1px; */
 }
 
 .case-study-info {
     display: flex;
     flex-direction: column;
     gap: 48px;
-    outline: solid red 1px; 
+    /* outline: solid red 1px;  */
 }
 
 #CaseStudyTitle {
