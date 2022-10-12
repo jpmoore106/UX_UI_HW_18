@@ -168,7 +168,9 @@ p2 {
     display: flex;
     flex-direction: column;
     gap: 48px;
-    /* outline: solid red 1px;  */
+    padding-left: 50px;
+    padding-right: 50px;
+    outline: solid red 1px; 
 }
 
 #CaseStudyTitle {
@@ -177,7 +179,7 @@ p2 {
 
 .cta {
     width: 175px;
-    height: 75px;
+    height: 65px;
     background: #FAFAFA;
     border-radius: 15px;
     font-size: 20px;
