@@ -165,17 +165,10 @@ p2 {
 }
 
 .case-study-info {
-    /* margin-top: 150px; */
-    max-width: 50%;
-    /* margin-left: 50px; */
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    /* align-items: flex-start; */
-    /* padding: 15px; */
     gap: 48px;
-    position: relative;
-    outline: solid red 1px;
+    outline: solid red 1px; 
 }
 
 #CaseStudyTitle {
