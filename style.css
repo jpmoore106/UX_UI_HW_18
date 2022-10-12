@@ -139,10 +139,12 @@ p2 {
 }
 
 .case-study-layout {
+    margin-left: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
+    gap: 50px;
     outline: solid red 1px;
 }
 
@@ -151,19 +153,21 @@ p2 {
     max-width: 50%;
     border-radius: 12px;
     transform: rotate(5deg);
-    flex: none;
+    align-items: flex-end;
+    /* flex: none;
     order: 1;
-    flex-grow: 0;
+    flex-grow: 0; */
     outline: solid red 1px;
 }
 
 .case-study-info {
-    margin-top: 150px;
-    margin-left: 50px;
+    /* margin-top: 150px; */
+    max-width: 50%;
+    /* margin-left: 50px; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 15px;
+    /* padding: 15px; */
     gap: 48px;
     position: relative;
     outline: solid red 1px;
