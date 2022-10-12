@@ -7,7 +7,7 @@ h1 {
 }
 
 h2 {
-    width: 203px;
+    /* width: 203px; */
     height: 42px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -67,7 +67,7 @@ p2 {
 
 .navigation {
     display: flex;
-    height: 109px;
+    height: 100px;
     width: 100%;
     background: #171717;
     align-items: center;
