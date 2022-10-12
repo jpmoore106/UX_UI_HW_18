@@ -4,6 +4,8 @@
     justify-content: space-between;
     gap: 250px;
     margin-top: 150px;
+    padding-left: 100px;
+    padding-right: 150px;
       /* outline: solid red 1px; */
 }
 
