@@ -170,7 +170,7 @@ p2 {
     gap: 48px;
     padding-left: 50px;
     padding-right: 50px;
-    outline: solid red 1px; 
+    /* outline: solid red 1px;  */
 }
 
 #CaseStudyTitle {

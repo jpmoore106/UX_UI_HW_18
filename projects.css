@@ -4,7 +4,7 @@
     justify-content: space-between;
     gap: 250px;
     margin-top: 150px;
-      outline: solid red 1px;
+      /* outline: solid red 1px; */
 }
 
 .case-study-item {}
